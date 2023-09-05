@@ -1,0 +1,26 @@
+server:
+  port: 8848
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://124.220.36.176:27017/test
+ #有密码的配置
+#spring:
+#  data:
+#    mongodb:
+#      authentication-database: # Authentication database name.
+#      database: # Database name.
+#      field-naming-strategy: # Fully qualified name of the FieldNamingStrategy to use.
+#      grid-fs-database: # GridFS database name.
+#      host: # Mongo server host. Cannot be set with URI.
+#      password: # Login password of the mongo server. Cannot be set with URI.
+#      port: # Mongo server port. Cannot be set with URI.
+#      repositories:
+#        type: # Type of Mongo repositories to enable.
+#      uri: # Mongo database URI. Cannot be set with host, port and credentials.
+#      username: # Login user of the mongo server. Cannot be set with URI.
+
+
+
+
